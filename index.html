@@ -2,12 +2,58 @@
 
 	<head>
 		<title>kp's website</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.fullPage.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/stylesheets/jquery.fullPage.css" />
+		<link rel="stylesheet" type="text/css" href="assets/stylesheets/style.css" />
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+    			$('#fullpage').fullpage();
+			});
+		</script>
 	</head>
 
 	<body>
-		<p>
-			hello, world!
-		</p>
+		<div id="fullpage">
+    		<div class="section">
+    			<h1>Hi, there! My name's Kevin and I'm a Software Engineer in the Bay Area.</h1>
+    		</div>
+
+    		<div class="section">
+    			<h1>I hail from San Diego, but moved to the Bay Area to study Computer Science at UC Berkeley. I currently hack at TubeMogul, helping develop and scale our industry-leading RTB system.</h1>
+    		</div>
+
+    		<div class="section">
+    			<div class="slide active">
+					<div class="intro">
+						<h2>Scroll to view a few of my projects.</h2>
+					</div>
+
+				</div>
+		    	<div class="slide">
+					<div class="intro">
+						<h2>Project 1</h2>
+					</div>
+				</div>
+			    <div class="slide">
+					<div class="intro">
+						<h2>Project 2</h2>
+					</div>
+				</div>
+			    <div class="slide">
+					<div class="intro">
+						<h2>Project 3</h2>
+					</div>
+				</div>
+    		</div>
+
+    		<div class="section">
+    			<h1>Let's Talk</h1>
+    		</div>
+
+		</div>
 	</body>
 
 </html>
