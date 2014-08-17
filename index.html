@@ -10,46 +10,48 @@
 
 		<script type="text/javascript">
 			$(document).ready(function() {
-    			$('#fullpage').fullpage();
+    			$('#fullpage').fullpage({
+    				verticalCentered: true,
+    			});
 			});
 		</script>
 	</head>
 
 	<body>
 		<div id="fullpage">
-    		<div class="section">
+    		<div class="section" id="home" >
     			<h1>Hi, there! My name's Kevin and I'm a Software Engineer in the Bay Area.</h1>
     		</div>
 
-    		<div class="section">
+    		<div class="section" id="about" style="background-color: rgb(75, 191, 195);">
     			<h1>I hail from San Diego, but moved to the Bay Area to study Computer Science at UC Berkeley. I currently hack at TubeMogul, helping develop and scale our industry-leading RTB system.</h1>
     		</div>
 
-    		<div class="section">
+    		<div class="section" id="project" style="background-color: rgb(123, 170, 190);">
     			<div class="slide active">
 					<div class="intro">
-						<h2>Scroll to view a few of my projects.</h2>
+						<h1>Scroll to view a few of my projects.</h1>
 					</div>
 
 				</div>
 		    	<div class="slide">
 					<div class="intro">
-						<h2>Project 1</h2>
+						<h1>Project 1</h1>
 					</div>
 				</div>
 			    <div class="slide">
 					<div class="intro">
-						<h2>Project 2</h2>
+						<h1>Project 2</h1>
 					</div>
 				</div>
 			    <div class="slide">
 					<div class="intro">
-						<h2>Project 3</h2>
+						<h1>Project 3</h1>
 					</div>
 				</div>
     		</div>
 
-    		<div class="section">
+    		<div class="section" id="contact">
     			<h1>Let's Talk</h1>
     		</div>
 

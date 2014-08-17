@@ -1,1 +1,42 @@
-style.css
+body {
+	font-family: arial,helvetica;
+	color: #333;
+	color: rgba(0,0,0,0.5);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	padding: 0;
+	margin: 0;
+}
+
+#home {
+	background-color: rgb(27, 188, 155);
+}
+
+#about {
+	background-color: rgb(75, 191, 195);
+}
+
+#project {
+	background-color: rgb(123, 170, 190);
+}
+
+#contact {
+	background-color: rgb(245, 245, 245);
+}
+
+.section {
+	text-align: center;
+}
